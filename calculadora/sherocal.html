@@ -111,24 +111,25 @@ function getStats(){
   prana = document.getElementById("prana").value;
   mana = document.getElementById("mana").value;
   if(isNaN(parseInt(vit))){
-        document.getElementById("hp").innerHTML = "<img src='../chale.jpg'>";
+        document.getElementById("chale").innerHTML = "<img src='../chale.jpg'>";
 	alert("Chale, pon un número en vitalidad")
   }
   else if(isNaN(parseInt(res))){
-	document.getElementById("hp").innerHTML = "<img src='../chale.jpg'>";
+	document.getElementById("chale").innerHTML = "<img src='../chale.jpg'>";
 	alert("Chale, pon un número resistencia")
   }
   else if(isNaN(parseInt(prana))){
-        document.getElementById("hp").innerHTML = "<img src='../chale.jpg'>";	  
+        document.getElementById("chale").innerHTML = "<img src='../chale.jpg'>";	  
 	alert("Chale, pon un número en prana")
   }
   else if(isNaN(parseInt(mana))){
-        document.getElementById("hp").innerHTML = "<img src='../chale.jpg'>";
+        document.getElementById("chale").innerHTML = "<img src='../chale.jpg'>";
 	alert("Chale, pon un número en mana")
   }
   else{
-	  document.getElementById("hp").innerHTML = getHP(vit,res);
-	  document.getElementById("mp").innerHTML = getMP(prana,mana);
+	  document.getElementById("chale").innerHTML = "HP: <span style='color:#FFF'>" + getHP(vit,res) + "</span> MP: <span style='color:#FFF'>"+ getMP(prana,mana) + "</span>"
+	  //document.getElementById("hp").innerHTML = getHP(vit,res);
+	  //document.getElementById("mp").innerHTML = getMP(prana,mana);
   }
 }
 
