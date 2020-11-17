@@ -16,7 +16,7 @@
 		for (j = 1; j <=i; j++) {
 				console.log("i is: " + i + " and j is: " + j);
 			if(j<8){
-				document.getElementById("ubw" + j).src="https://shiharokuu.github.io/emiya-theme/chant" + (j+4) + ".html";
+				document.getElementById("ubw" + j).src="https://shiharokuu.github.io/emiya-theme/chant" + j + ".html";
 			}
 		}
 	}
