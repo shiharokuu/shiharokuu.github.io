@@ -135,7 +135,7 @@ xmlhttp.onreadystatechange = function() {
   }
 };
 
-xmlhttp.open("GET", "json/sheroStats.json", true);
+xmlhttp.open("GET", "https://shiharokuu.github.io/json/sheroStats.json", true);
 xmlhttp.send();
 
  //Cargamos el reproductor
@@ -162,4 +162,4 @@ xmlhttp.send();
 	//document.getElementById("sheroSignature").innerHTML=sheroMusic+imgCode+sheroSays+css;	
 	document.getElementById("sheroSays").innerHTML=sheroSays;	
 	document.getElementById("sheroGIF").src=sheroIMG[trace3];	
-	document.getElementById("sheroMusic").src=mp3[trace1];
+	document.getElementById("sheroMusic").src=mp3[trace1];	
