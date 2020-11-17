@@ -1,0 +1,394 @@
+ <title>La firma del Shero</title>
+<meta charset="utf-8" />
+<link href="https://fonts.gstatic.com" rel="preconnect" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/audio.min.js"></script>
+<center>
+	                                                                                                                                 
+		      <div class="sheroText"> 
+			      <div id="sheroSkills">
+				<img src="chale.jpg" alt="Shero" title="Chale, no cargo el json."/>Chale, no cargo el json.
+  
+  			</div>
+				             
+			</div>
+			                                                                
+		                                                                      </div>
+</center>
+<style>
+.sheroText
+{
+width:553px;
+color:#f1f1f1;
+text-shadow:1px 1px 1px #000,2px 2px 2px #000;
+font-size:18px;
+font-family:Goldman;
+font-style: bold;
+position:relative;
+background-color:#1c0d24;
+
+}
+
+.sheroQUOTE
+{
+width:552px;
+background-color:#e2664a;
+display: inline-block;
+text-align:center;
+}
+
+
+.sheroSTATS
+{
+font-size:28px;
+text-align:left;
+margin-left:8px;
+font-family:Goldman;
+margin-top:8px;
+font-style: normal;
+}
+
+.sheroSTATS2
+{
+
+margin-left:310px;
+}
+
+
+.tooltip {
+  margin-top:-33px;
+  position: relative;
+  display: inline-block;
+  font-family:Goldman;
+  color:#fff3ab;
+  font-size:28px;
+  font-style: normal;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 350px;
+  bottom: 80%;
+  left: 50%;
+  margin-left: -175px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family:open sans condensed,sans-serif;
+   font-size:13px;
+   font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.sheroHab {
+  margin-top:-200px;
+  position: relative;
+  display: inline-block;
+  font-family:Goldman;
+  color:#fff3ab;
+  font-size:28px;
+  font-style: normal;
+
+}
+
+.sheroHab .sheroHabText {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 520px;
+  top: 100%;
+  left: 50%;
+  margin-left: -260px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family:open sans condensed,sans-serif;
+   font-size:13px;
+   font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.sheroHab .sheroHabText::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}
+
+
+
+
+
+.statName
+{
+font-size:14px;
+font-family:Goldman;
+font-style: bold;
+color: #fff;
+  text-align: center;
+}
+
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  background: rgb(226, 102, 74);
+  width: 30%;
+  height: 290px;
+  overflow:auto;
+  box-sizing: border-box;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 7.3px 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 10px;
+  font-family:Goldman;
+  box-sizing: border-box;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background: rgb(158, 71, 51);
+  box-sizing: border-box;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background: rgb(158, 71, 51);
+  box-sizing: border-box;
+ 
+}
+
+/* Style the tab content */
+.tabcontent {
+  background-color:#1c0d24;
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  font-size:10.5px;
+  text-align:left;
+  height: 290px;
+  overflow:auto;
+  box-sizing: border-box;
+  border:6px solid #e2664a;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  background: rgb(241, 241, 241);
+  background: rgba(241, 241, 241, 0.6);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(135, 61, 44);
+  background: rgba(135, 61, 44, 0.6);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #713225; 
+}
+
+</style>
+<script>
+ //By Damian o sea el Shero/Toshi
+//¿Qué haces leyendo el código de mi firma? (?) Holi. 
+
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+//Randomiza array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+} 
+
+//Calcula HP
+function getHP(vit, res) {
+  var base = 50;
+  return base + (vit*10)+(Math.round(res/2));   // The function returns the HP of my character
+}
+
+
+//Calcula Prana
+function getMP(prana, mana) {
+  var base = 40;
+  return base + (prana*10)+(Math.round(mana/2));   // The function returns the MP of my character
+}
+
+//Calcula rango stat
+function rangoStat(stat) {
+  if(stat>40){
+	return "A"
+  }
+  else if(stat>30){
+	return "B"
+  }
+  else if(stat>20){
+	return "C"
+  }
+  else if(stat>10){
+	return "D" 
+  }
+  
+  return "E"
+  
+}
+	  
+//Stats de SHero, inicialziar
+
+atk = 0
+vit = 0
+resF = 0
+resM = 0
+preci = 0
+ref = 0
+atkM = 0
+prana = 0
+prob = 0
+crit = 0
+np = 0
+	
+
+	  
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+
+  if (this.readyState == 4 && this.status == 200) {
+    var sheroPOWER = JSON.parse(this.responseText);
+  	atk = sheroPOWER.atk;
+	vit = sheroPOWER.vit;
+	resF = sheroPOWER.resF;
+	resM = sheroPOWER.resM;
+	res = resF + resM
+	preci = sheroPOWER.preci;
+	ref = sheroPOWER.ref;
+	atkM = sheroPOWER.atkM;
+	prana = sheroPOWER.prana;
+	mana = prana + atkM;
+	prob = sheroPOWER.prob;
+	crit = sheroPOWER.crit;
+	np = sheroPOWER.np;
+	skill = sheroPOWER.skill;
+	//console.log(skill[0].effect)
+	//document.getElementById("hp").innerHTML = getHP(vit,res);
+	//document.getElementById("mana").innerHTML = getMP(prana,mana);
+    //document.getElementById("atk").innerHTML = atk;
+	//document.getElementById("vit").innerHTML = vit;
+	//document.getElementById("resF").innerHTML = resF;
+	//document.getElementById("resM").innerHTML = resM;
+	//document.getElementById("preci").innerHTML = preci;
+	//document.getElementById("ref").innerHTML = ref;
+	//document.getElementById("atkM").innerHTML = atkM;
+	//document.getElementById("prana").innerHTML = prana;
+	//document.getElementById("prob").innerHTML = prob;
+	//document.getElementById("crit").innerHTML = crit;
+	//document.getElementById("np").innerHTML = np;
+	//document.getElementById("fuerza").innerHTML = rangoStat(atk+vit);
+	//document.getElementById("resistencia").innerHTML = rangoStat(res);
+	//document.getElementById("agilidad").innerHTML = rangoStat(preci+ref);
+	//document.getElementById("manaRango").innerHTML = rangoStat(mana);
+	//document.getElementById("criticoRango").innerHTML = rangoStat(prob+crit);
+    sheroSkillsName = "<div class='tab'>"
+	sheroSkillsDesc = ""
+	
+    j = 0;
+	for (i of skill) {
+		if(j==0){
+			sheroSkillsName = sheroSkillsName + "<button class=\"\ tablinks\"\ onclick=\"\openCity(event, '" + i.shortName + "')\"\ id=\"\defaultOpen\"\>" + i.shortName + "</button>"
+			j+=1
+		}
+		else{
+			sheroSkillsName = sheroSkillsName + "<button class=\"\ tablinks\"\ onclick=\"\openCity(event, '" + i.shortName + "')\"\>" + i.shortName + "</button>"
+		}
+		code = "<div id='" + i.shortName +  "' class='tabcontent'><h3 style='color:#e2664a'>" + i.name + "</h3>";
+		code = code + "<p>" + i.desc +"</p>";
+		code = code + "<p style='color:#fff3ab;'>" + i.effect +"</p></div>";
+		sheroSkillsDesc = sheroSkillsDesc + code;
+	}
+	sheroSkillsName = sheroSkillsName + "</div>";
+	sheroSkills = sheroSkillsName + sheroSkillsDesc;
+	document.getElementById("sheroSkills").innerHTML = sheroSkills;
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	
+  }
+};
+
+xmlhttp.open("GET", "https://shiharokuu.github.io/json/sheroStats.json", true);
+xmlhttp.send();
+
+
+
+
+</script>
+
