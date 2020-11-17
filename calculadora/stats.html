@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #e2664a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color:#f1f1f1;
+  text-shadow:1px 1px 1px #000,2px 2px 2px #000;
+  font-size:23px;
+  font-family:Goldman;  
+}
+
+button:hover {
+  background-color: #873d2c;
+}
+
+.boxShero{
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242,0.80);
+  padding: 20px;
+  width:552px;
+  color:#fff3ab;
+  text-shadow:1px 1px 1px #000,2px 2px 2px #000;
+  font-size:23px;
+  font-family:Goldman;
+}
+
+h3 {
+  color:#fff3ab;
+  text-shadow:1px 1px 1px #000,2px 2px 2px #000;
+  font-size:32px;
+  font-family:Goldman;
+  text-align:center;
+}
+
+body {
+ background-image: url("background.jpg");
+ background-color: #e2664a;
+}
+</style>
+<link href="https://fonts.gstatic.com" rel="preconnect" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" />
+<body>
+
+<h3>Calculadora de HP Y Mana<br>by el Shero</h3>
+
+<center><div class ="boxShero" style="width:500px;">
+  <form>
+    <label for="vit">Vitalidad</label>
+    <input type="text" id="vit" name="vitalidad" placeholder="Pon tu stat de vitalidad.">
+
+    <label for="res">Resistencia</label>
+    <input type="text" id="res" name="resistencia" placeholder="Pon la suma de tus resistencias (res física + res mágica).">
+
+   <label for="prana">Prana</label>
+    <input type="text" id="prana" name="prana" placeholder="Pon tu stat de prana.">
+	
+	 <label for="mana">Mana</label>
+    <input type="text" id="mana" name="mana" placeholder="Pon la suma de prana y ataque mágico (mana)">
+  
+   
+
+  </form> <button onclick="getStats()">Calcula HP y MP</button>
+</div></center>
+ <h3>HP: <span style="color:#FFF" id="hp">???</span> MP: <span style="color:#FFF"  id="mp">???</span></h3>
+ 
+
+</body>
+</html>
+<script>
+//Calcula HP
+function getHP(vit, res) {
+  var base = 50;
+  return base + (vit*10)+(Math.round(res/2));   // The function returns the HP of my character
+}
+
+
+//Calcula Prana
+function getMP(prana, mana) {
+  var base = 40;
+  return base + (prana*10)+(Math.round(mana/2));   // The function returns the MP of my character
+}
+
+
+function getStats(){
+  vit = document.getElementById("vit").value;
+  res = document.getElementById("res").value;
+  prana = document.getElementById("prana").value;
+  mana = document.getElementById("mana").value;
+  if(isNaN(parseInt(vit))){
+	alert("Chale, un número en vitalidad")
+  }
+  else if(isNaN(parseInt(res))){
+	alert("Chale, pon un número resistencia")
+  }
+  else if(isNaN(parseInt(prana))){
+	alert("Chale, pon un número en prana")
+  }
+  else if(isNaN(parseInt(mana))){
+	alert("Chale, pon un número en mana")
+  }
+  else{
+	  document.getElementById("hp").innerHTML = getHP(vit,res);
+	  document.getElementById("mp").innerHTML = getMP(prana,mana);
+  }
+}
+
+</script>
