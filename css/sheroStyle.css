@@ -1,0 +1,238 @@
+
+.sheroImage{
+border:6px solid #e2664a;
+border-top:none;
+margin-bottom:-60px;
+background-color:#e2664a
+}
+.audiojs .scrubber
+{width:400px;background:#000}
+
+.sheroText
+{
+width:552px;
+color:#f1f1f1;
+text-shadow:1px 1px 1px #000,2px 2px 2px #000;
+font-size:18px;
+font-family:open sans condensed,sans-serif;
+font-style: italic;
+position:relative;
+margin-bottom:50px
+}
+
+.sheroQUOTE
+{
+width:552px;
+background-color:#e2664a;
+display: inline-block;
+text-align:center;
+}
+
+
+.sheroSTATS
+{
+font-size:28px;
+text-align:left;
+margin-left:8px;
+font-family:Goldman;
+margin-top:8px;
+font-style: normal;
+}
+
+.sheroSTATS2
+{
+
+margin-left:310px;
+}
+
+
+.tooltip {
+  margin-top:-33px;
+  position: relative;
+  display: inline-block;
+  font-family:Goldman;
+  color:#fff3ab;
+  font-size:28px;
+  font-style: normal;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 350px;
+  bottom: 80%;
+  left: 50%;
+  margin-left: -175px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family:open sans condensed,sans-serif;
+   font-size:13px;
+   font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.sheroHab {
+  margin-top:-200px;
+  position: relative;
+  display: inline-block;
+  font-family:Goldman;
+  color:#fff3ab;
+  font-size:28px;
+  font-style: normal;
+
+}
+
+.sheroHab .sheroHabText {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 520px;
+  top: 100%;
+  left: 50%;
+  margin-left: -260px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-family:open sans condensed,sans-serif;
+   font-size:13px;
+   font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.sheroHab .sheroHabText::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}
+
+
+.sheroHab:hover .sheroHabText {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.statName
+{
+font-size:14px;
+font-family:Goldman;
+font-style: bold;
+color: #fff;
+  text-align: center;
+}
+
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  background: rgb(226, 102, 74);
+  background: rgba(226, 102, 74, 0.6);
+  width: 30%;
+  max-height: 240px;
+  overflow:auto;
+  box-sizing: border-box;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 4.8px 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 10px;
+  font-family:Goldman;
+  box-sizing: border-box;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background: rgb(158, 71, 51);
+  background: rgba(158, 71, 51, 0.6);
+  box-sizing: border-box;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background: rgb(158, 71, 51);
+  box-sizing: border-box;
+ 
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  font-size:10.5px;
+  text-align:left;
+  max-height: 240px;
+  overflow:auto;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  background: rgb(241, 241, 241);
+  background: rgba(241, 241, 241, 0.6);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(135, 61, 44);
+  background: rgba(135, 61, 44, 0.6);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #713225; 
+}
