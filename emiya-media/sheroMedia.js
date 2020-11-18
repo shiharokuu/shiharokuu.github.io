@@ -41,7 +41,9 @@
    'https://i1.lensdump.com/i/0BlP5Q.gif',
    'https://i1.lensdump.com/i/0BlFTa.gif',
    'https://i.lensdump.com/i/0BlUOe.gif',
-   'https://i1.lensdump.com/i/0Blcck.gif'
+   'https://i1.lensdump.com/i/0Blcck.gif',
+   'https://i1.lensdump.com/i/0ms4pC.gif',
+   'https://i1.lensdump.com/i/0mseSF.gif'
    ]; 
    
 	var sheroQuotes = [
