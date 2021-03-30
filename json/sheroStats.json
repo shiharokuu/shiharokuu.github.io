@@ -1,14 +1,14 @@
 {
 	"atk": 27,
-	"vit": 17,
+	"vit": 19,
 	"resF": 18,
 	"resM": 4,
 	"preci": 6,
 	"ref": 1,
 	"atkM": 1,
-	"prana": 26,
-	"prob": 20,
-	"crit": 1,
+	"prana": 30,
+	"prob": 30,
+	"crit": 10,
 	"np": "A++",
 	"skill": [{
 			"name": "INDEPENDENT ACTION – Rango A++",
