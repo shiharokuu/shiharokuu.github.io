@@ -12,21 +12,21 @@
 
       
 	var sheroIMG =[
-      'emiya-media/gif/archerArm.gif',
-      'emiya-media/gif/rhoAias.gif',
-      'emiya-media/gif/sheroArcher.gif',
-      'emiya-media/gif/sheroArcher2.gif',
-      'emiya-media/gif/sheroChant1.gif',
-      'emiya-media/gif/sheroChant2.gif',
-      'emiya-media/gif/sheroDemi1.gif',
-      'emiya-media/gif/sheroDemi2.gif',
-      'emiya-media/gif/sheroHill.gif',
-      'emiya-media/gif/sheroSky.gif',
-      'emiya-media/gif/sheroTrace.gif',
-      'emiya-media/gif/sheroUBW1.gif',
-      'emiya-media/gif/sheroUBW2.gif',
-      'emiya-media/gif/sheroVsHerak.gif',
-      'emiya-media/gif/trueImitation.gif'
+      'emiya-media/gifs/archerArm.gif',
+      'emiya-media/gifs/rhoAias.gif',
+      'emiya-media/gifs/sheroArcher.gif',
+      'emiya-media/gifs/sheroArcher2.gif',
+      'emiya-media/gifs/sheroChant1.gif',
+      'emiya-media/gifs/sheroChant2.gif',
+      'emiya-media/gifs/sheroDemi1.gif',
+      'emiya-media/gifs/sheroDemi2.gif',
+      'emiya-media/gifs/sheroHill.gif',
+      'emiya-media/gifs/sheroSky.gif',
+      'emiya-media/gifs/sheroTrace.gif',
+      'emiya-media/gifs/sheroUBW1.gif',
+      'emiya-media/gifs/sheroUBW2.gif',
+      'emiya-media/gifs/sheroVsHerak.gif',
+      'emiya-media/gifs/trueImitation.gif'
       ];
       
       
