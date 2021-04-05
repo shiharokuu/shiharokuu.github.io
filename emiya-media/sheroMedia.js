@@ -10,8 +10,9 @@
       'emiya-media/music/sorrow.mp3'
       ];
 
-       /*
+      
 	var sheroIMG =[
+      'emiya-media/gif/archerArm.gif',
       'emiya-media/gif/rhoAias.gif',
       'emiya-media/gif/sheroArcher.gif',
       'emiya-media/gif/sheroArcher2.gif',
@@ -24,11 +25,12 @@
       'emiya-media/gif/sheroTrace.gif',
       'emiya-media/gif/sheroUBW1.gif',
       'emiya-media/gif/sheroUBW2.gif',
+      'emiya-media/gif/sheroVsHerak.gif',
       'emiya-media/gif/trueImitation.gif'
-      ];*/ 
+      ];
       
       
-	sheroIMG = [
+	 /*sheroIMG = [
     'https://i1.lensdump.com/i/0BleOr.gif',
     'https://i.lensdump.com/i/0BlST7.gif',
     'https://i1.lensdump.com/i/0BlLZ3.gif',
@@ -44,7 +46,7 @@
    'https://i1.lensdump.com/i/0Blcck.gif',
    'https://i1.lensdump.com/i/0ms4pC.gif',
    'https://i1.lensdump.com/i/0mseSF.gif'
-   ]; 
+   ]; */ 
    
 	var sheroQuotes = [
     "Just because you're correct doesn't mean you're right",
