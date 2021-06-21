@@ -34,12 +34,16 @@
       
 
 	var pjQuotes = [
-    "You trusted me, so I'll trust you too. That's what being friends means, doesn't it?",
+        "You trusted me, so I'll trust you too. That's what being friends means, doesn't it?",
 	"Don't you think that true memories are a combination of fun ones and painful ones?",
 	"Your past shouldn't stop you from achieving your goals and dreams",
 	"Don't just mindlessly judge people as you please",
 	"Time for Ul-tra-vio-lence",
-	" I can't afford to lose!"
-	
-
+	"I can't afford to lose!",
+	"Who the hell do you think I am?",
+	"Go beyond the impossible and kick reason to the curb!",
+	"I'm gonna show you... the power of the human race!",
+	"When you're scared, that's all the more reason to move forward",
+	"Let's see ya grit those teeth!",
+	"A real man never dies, even when he's killed!"
   ];
