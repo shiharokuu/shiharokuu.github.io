@@ -118,34 +118,27 @@ function rand( lowest, highest){
 	textBlock.appendChild(quote);
 	
 	
-//Create HP AND MP
-	const pjBars = document.createElement('div');
-	pjBars.classList.add('pjBars');
-	textBlock.appendChild(pjBars);
+//Create Signature Bottom
+	const sigBottom = document.createElement('div');
+	sigBottom.classList.add('sigBottom');
+	textBlock.appendChild(sigBottom);
+//Create HP BLOCK
+	const hpBlock = document.createElement('div');
+	hpBlock.classList.add('hpBlock');
+	sigBottom.appendChild(hpBlock);
 	//Create HP 
 		const hp = document.createElement('span');
 		hp.style.color = variant2;
 		hp.innerHTML = stats[0].name + ": ";
-		pjBars.appendChild(hp);
+		hpBlock.appendChild(hp);
 		const hpValue = document.createElement('span');
 		hpValue.innerHTML = stats[0].value;
-		pjBars.appendChild(hpValue);
-
-	//Create MP
-		const mp = document.createElement('span');
-		mp.classList.add('pjBars2');
-		mp.style.color = variant2;
-		mp.innerHTML = stats[1].name + ": ";
-		pjBars.appendChild(mp);
-		const mpValue = document.createElement('span');
-		mpValue.innerHTML = stats[1].value;
-		pjBars.appendChild(mpValue);
-		
+		hpBlock.appendChild(hpValue);
 //Create statTip
 	const statsTip = document.createElement('span');
 	statsTip.classList.add('statsTip');
 	statsTip.innerHTML = "<a href='https://jujutsukaisen-rol.foroactivo.com/t23-sensho-takeshi-id#43' target='_blank'><ruby><rb>戰勝 武士</rb><rp>（</rp><rt>Senshō Takeshi</rt><rp>）</rp></ruby></a>";
-	textBlock.appendChild(statsTip);
+	sigBottom.appendChild(statsTip);
 /*
 	const tableTip = document.createElement('table');
 	tableTip.classList.add('statsTiptext');
@@ -160,6 +153,22 @@ function rand( lowest, highest){
 
 	}
 	*/
+//Create HP BLOCK
+	const mpBlock = document.createElement('div');
+	mpBlock.classList.add('mpBlock');
+	sigBottom.appendChild(mpBlock);
+	//Create MP
+		const mp = document.createElement('span');
+		mp.classList.add('pjBars2');
+		mp.style.color = variant2;
+		mp.innerHTML = stats[1].name + ": ";
+		mpBlock.appendChild(mp);
+		const mpValue = document.createElement('span');
+		mpValue.innerHTML = stats[1].value;
+		mpBlock.appendChild(mpValue);
+		
+
+
 	
 //Cargamos el reproductor
      audiojs.events.ready(function() {
