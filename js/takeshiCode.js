@@ -115,7 +115,9 @@ function rand( lowest, highest){
 	const quote = document.createElement('span');
 	quote.classList.add('pjQUOTE');
 	quote.innerHTML = '"' + pjQuotes[trace2] + '"';
-	textBlock.appendChild(quote);	
+	textBlock.appendChild(quote);
+	
+	
 //Create Signature Bottom
 	const sigBottom = document.createElement('div');
 	sigBottom.classList.add('sigBottom');
@@ -135,7 +137,7 @@ function rand( lowest, highest){
 //Create statTip
 	const statsTip = document.createElement('span');
 	statsTip.classList.add('statsTip');
-	statsTip.innerHTML = "<a href='https://jujutsukaisen-rol.foroactivo.com/t23-sensho-takeshi-id#43' target='_blank'><ruby><rb>戰勝 武士</rb><rp>（</rp><rt>Senshō Takeshi</rt><rp>）</rp></ruby></a>";
+	statsTip.innerHTML = "<a title='Ficha de Personaje' href='https://jujutsukaisen-rol.foroactivo.com/t23-sensho-takeshi-id#43' target='_blank'><ruby><rb>戰勝 武士</rb><rp>（</rp><rt>Senshō Takeshi</rt><rp>）</rp></ruby></a>";
 	sigBottom.appendChild(statsTip);
 /*
 	const tableTip = document.createElement('table');
