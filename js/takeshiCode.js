@@ -115,9 +115,7 @@ function rand( lowest, highest){
 	const quote = document.createElement('span');
 	quote.classList.add('pjQUOTE');
 	quote.innerHTML = '"' + pjQuotes[trace2] + '"';
-	textBlock.appendChild(quote);
-	
-	
+	textBlock.appendChild(quote);	
 //Create Signature Bottom
 	const sigBottom = document.createElement('div');
 	sigBottom.classList.add('sigBottom');
