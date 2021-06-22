@@ -36,7 +36,6 @@
 	"Don't you think that true memories are a combination of fun ones and painful ones?",
 	"Your past shouldn't stop you from achieving your goals and dreams",
 	"Don't just mindlessly judge people as you please",
-	"Time for Ul-tra-vio-lence",
 	"I can't afford to lose!",
 	"Who the hell do you think I am?",
 	"Go beyond the impossible and kick reason to the curb!",
