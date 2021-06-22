@@ -1,7 +1,5 @@
  //By Damian/Kenta/Shiharoku
 //¿Qué haces leyendo el código de mi firma? (?) Holi. 
-
-
 function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
