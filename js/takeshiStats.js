@@ -46,7 +46,7 @@ skill = [
 		{
 			"name": "Me debes dinero",
 			"shortName": "Dame dinero",
-			"effect": "La persona que lee esto me debe un dólar cada vez que la ve. (?)",
+			"effect": "La persona que lee esto me debe un dólar cada vez que lo ve. (?)",
 			"desc": "El efecto de esta técnica es que aún no tengo ficha de habilidades, así que me debes dinero (?).."
 		},
 		{
