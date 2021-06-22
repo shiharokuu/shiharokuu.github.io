@@ -1,5 +1,7 @@
  //By Damian/Kenta/Shiharoku
 //¿Qué haces leyendo el código de mi firma? (?) Holi. 
+
+
 function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -93,7 +95,7 @@ function rand( lowest, highest){
 		abilityText.appendChild(tabContent);
 		//Create H3 with ability name
 		var abilityName = document.createElement('h3');
-		abilityName.style.color = variant1;
+		//abilityName.style.color = variant1;
 		abilityName.innerHTML = i.name;
 		tabContent.appendChild(abilityName);
 		//Create p with ability description
@@ -102,7 +104,7 @@ function rand( lowest, highest){
 		tabContent.appendChild(abilityDesc);
 		//Create p with ability effect
 		var abilityEffect = document.createElement('p');
-		abilityEffect.style.color = variant2;
+		//abilityEffect.style.color = variant2;
 		abilityEffect.innerHTML = i.effect;
 		tabContent.appendChild(abilityEffect);
 	}
