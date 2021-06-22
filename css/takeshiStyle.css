@@ -159,6 +159,11 @@ rt {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+   text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 
   /* Position the statsTip */
   position: absolute;
@@ -242,7 +247,7 @@ color: #fff;
   padding: 0px 12px;
   width: 70%;
   border-left: none;
-  font-size:11px;
+  font-size:11.5px;
   text-align:left;
   max-height: 250px;
   overflow:auto;
