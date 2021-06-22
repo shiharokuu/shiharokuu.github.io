@@ -9,7 +9,6 @@
       'emiya-media/music/shero-the-hero.mp3',
       'emiya-media/music/sorrow.mp3'
       ];
-
       
 	var sheroIMG =[
       'emiya-media/gifs/archerArm.gif',
