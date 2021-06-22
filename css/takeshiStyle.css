@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ropa+Sans&family=Goldman&display=swap');
 
 .pjImage{
 border:6px solid #102e6c;
@@ -6,7 +7,7 @@ margin-bottom:-60px;
 background-color:#102e6c;
 }
 .audiojs .scrubber
-{width:350px;
+{width:340px;
  background:#000}
 
 .audiojs {
@@ -30,10 +31,7 @@ width:488px;
 color:#f1f1f1;
 text-shadow:1px 1px 1px #000,2px 2px 2px #000;
 font-size:18px;
-font-family:open sans condensed,sans-serif;
-font-style: italic;
-position:relative;
-margin-bottom:50px
+font-family: 'Ropa Sans', sans-serif;
 }
 
 .pjQUOTE
@@ -42,12 +40,15 @@ width:488px;
 background-color:#102e6c;
 display: inline-block;
 text-align:center;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size:23px;
+
 }
 
 
 .sigBottom
 {
-font-size:25px;
+font-size:28px;
 font-style: normal;
 font-weight: bold;
 font-family:Goldman;
@@ -60,27 +61,33 @@ display: inline-block;
 text-align:left;
 position:absolute;
 right:170px;
-bottom:20px;
+bottom:25px;
 width:130px;
 }
+
 .mpBlock
 {
 text-align:right;
 position:absolute;
 left:170px;
-bottom:20px;
+bottom:25px;
 width:130px;
 }
   /* Furigana */
 rt {
   color:#f1f1f1;
   font-style: normal;
-  
+  font-family:'Ropa Sans', sans-serif;
+  text-shadow: 1px -1px 0px rgba(0,0,0,0.7),
+             1px 0px 0px rgba(0,0,0,0.9),
+             1px 2px 0px rgba(0,0,0,0.9);
+ 
 }
+
 
 .statsTip {
   color:#ABB5CB;
-  font-size:30px;
+  font-size:34px;
 
 }
 
@@ -95,7 +102,7 @@ rt {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
-  font-family:open sans condensed,sans-serif;
+  font-family:'Ropa Sans', sans-serif;
    font-size:16px;
    font-weight:bold;
   text-align: center;
@@ -125,7 +132,7 @@ rt {
 
 
 .pjHab {
-  margin-top:-213px;
+  margin-top:-211px;
   position: relative;
   display: inline-block;
   font-family:Goldman;
@@ -147,9 +154,8 @@ rt {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
-  font-family:open sans condensed,sans-serif;
-   font-size:13px;
-   font-weight:bold;
+  font-family:'Ropa Sans', sans-serif;
+  font-weight:bold;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -211,7 +217,7 @@ color: #fff;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 10px;
+  font-size: 11px;
   font-family:Goldman;
   box-sizing: border-box;
 }
@@ -236,7 +242,7 @@ color: #fff;
   padding: 0px 12px;
   width: 70%;
   border-left: none;
-  font-size:10.5px;
+  font-size:11px;
   text-align:left;
   max-height: 250px;
   overflow:auto;
@@ -279,11 +285,11 @@ a:hover {
 a[title]:hover:after {
   content: attr(title);
   position: absolute;
-  bottom: -30%;
-  left: -40;
+  bottom: -20%;
+  left: -45;
   font-size:20px;
   color:white;
-  width:200px;
+  width:230px;
 
 }
 
