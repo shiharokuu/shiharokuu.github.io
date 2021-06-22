@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ropa+Sans&family=Goldman&display=swap');
-
 .pjImage{
 border:6px solid #102e6c;
 border-top:none;
@@ -15,7 +14,6 @@ background-color:#102e6c;
 width: 500px;
 	
 }
-
 .audiojs .loaded{
 	background:#000;
 }
