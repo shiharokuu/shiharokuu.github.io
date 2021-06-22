@@ -36,8 +36,8 @@ function rand( lowest, highest){
 	var trace3 = rand(0,pjIMG.length-1);
 
 //HTML GENERATOR
-	const variant1 = "#8796b5";
-	const variant2 = "#8796b5"; 
+	const variant1 = "#ABB5CB";
+	const variant2 = "#ABABAB"; 
 	const signature = document.getElementById('kenta');
 //Create Audio Tag
 	const audio = document.createElement('audio');
@@ -128,7 +128,7 @@ function rand( lowest, highest){
 	sigBottom.appendChild(hpBlock);
 	//Create HP 
 		const hp = document.createElement('span');
-		hp.style.color = variant2;
+		hp.style.color = variant1;
 		hp.innerHTML = stats[0].name + ": ";
 		hpBlock.appendChild(hp);
 		const hpValue = document.createElement('span');
@@ -160,7 +160,7 @@ function rand( lowest, highest){
 	//Create MP
 		const mp = document.createElement('span');
 		mp.classList.add('pjBars2');
-		mp.style.color = variant2;
+		mp.style.color = variant1;
 		mp.innerHTML = stats[1].name + ": ";
 		mpBlock.appendChild(mp);
 		const mpValue = document.createElement('span');
