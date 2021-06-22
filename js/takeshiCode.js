@@ -142,7 +142,7 @@ function rand( lowest, highest){
 		pjBars.appendChild(mpValue);
 		
 //Create statTip
-	const statsTip = document.createElement('span');
+	/*const statsTip = document.createElement('span');
 	statsTip.classList.add('statsTip');
 	statsTip.innerHTML = 'Stats';
 	textBlock.appendChild(statsTip);
@@ -158,7 +158,7 @@ function rand( lowest, highest){
 		tr.appendChild(stateMaker(i+1));
 
 	}
-	
+	*/
 	
 //Cargamos el reproductor
      audiojs.events.ready(function() {
