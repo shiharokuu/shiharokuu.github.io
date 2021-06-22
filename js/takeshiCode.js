@@ -24,7 +24,6 @@ function shuffleArray(array) {
     }
 } 
 
-
 function rand( lowest, highest){
     var adjustedHigh = (highest - lowest) + 1;       
     return Math.floor(Math.random()*adjustedHigh) + parseFloat(lowest);
