@@ -273,6 +273,16 @@ a {
 }
 
 a:hover {
-   color:#6f81a6;
+  color:#6f81a6;
   text-decoration: none; /* no underline */
+}
+
+a[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  bottom: -40%;
+  left: 0;
+  font-size:15px;
+  color:#f1f1f1;
+
 }
