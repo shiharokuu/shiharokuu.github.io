@@ -44,9 +44,9 @@ stats = [{
 
 skill = [
 		{
-			"name": "<habilidad>Técnica 1: Me debes dinero</habilidad>",
+			"name": "Me debes dinero",
 			"shortName": "Dame dinero",
-			"effect": "<habilidad>Efecto:</habilidad> La persona que lee esto me debe un dólar cada vez que la ve. (?)",
+			"effect": "La persona que lee esto me debe un dólar cada vez que la ve. (?)",
 			"desc": "El efecto de esta técnica es que aún no tengo ficha de habilidades, así que me debes dinero (?).."
 		},
 		{
