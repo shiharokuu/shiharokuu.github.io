@@ -142,10 +142,11 @@ function rand( lowest, highest){
 		pjBars.appendChild(mpValue);
 		
 //Create statTip
-	/*const statsTip = document.createElement('span');
+	const statsTip = document.createElement('span');
 	statsTip.classList.add('statsTip');
-	statsTip.innerHTML = 'Stats';
+	statsTip.innerHTML = "<a href='https://jujutsukaisen-rol.foroactivo.com/t23-sensho-takeshi-id#43' target='_blank'><ruby><rb>戰勝 武士</rb><rp>（</rp><rt>Senshō Takeshi</rt><rp>）</rp></ruby></a>";
 	textBlock.appendChild(statsTip);
+/*
 	const tableTip = document.createElement('table');
 	tableTip.classList.add('statsTiptext');
 	statsTip.appendChild(tableTip);
