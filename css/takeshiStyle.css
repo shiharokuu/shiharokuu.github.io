@@ -280,10 +280,9 @@ a:hover {
 a[title]:hover:after {
   content: attr(title);
   position: absolute;
-  bottom: -40%;
+  bottom: -60%;
   left: 0;
-  font-size:15px;
+  font-size:20px;
   color:#f1f1f1;
 
 }
-
