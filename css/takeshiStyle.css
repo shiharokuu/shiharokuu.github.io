@@ -14,6 +14,7 @@ background-color:#102e6c;
 width: 500px;
 	
 }
+
 .audiojs .loaded{
 	background:#000;
 }
@@ -279,8 +280,10 @@ a:hover {
 a[title]:hover:after {
   content: attr(title);
   position: absolute;
-  bottom: -60%;
-  left: 0;
+  bottom: -30%;
+  left: -40;
   font-size:20px;
   color:white;
+  width:200px;
+
 }
