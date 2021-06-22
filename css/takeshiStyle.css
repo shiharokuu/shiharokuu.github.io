@@ -23,7 +23,6 @@ width: 500px;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #808080), color-stop(0.5, #808080), color-stop(0.51, #808080), color-stop(1, #808080));
     background-image: -moz-linear-gradient(center top, #808080 0%, #ddd 50%, #808080 51%, #808080 100%);
 }
-
 .pjText
 {
 width:488px;
