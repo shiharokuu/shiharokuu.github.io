@@ -1,11 +1,11 @@
 	
 stats = [{
-			"name": "Salud",
+			"name": "HP",
 			"value": "1",
 			"category": "Vida y Energía"
 		},
 		{
-			"name": "Juryoku",
+			"name": "CE",
 			"value": "1",
 			"category": "Vida y Energía"
 		},
