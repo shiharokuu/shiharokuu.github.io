@@ -51,7 +51,6 @@ var pjIMG =[
 		  'takeshi-media/gifs/take10.gif',
 		  'takeshi-media/gifs/take13.gif',
 		  'takeshi-media/gifs/take14.gif',
-		  'takeshi-media/gifs/take16.gif',
 		  'takeshi-media/gifs/take17.gif'
 		  ],
 		//"Don't you think that true memories are a combination of fun ones and painful ones?"
@@ -206,4 +205,3 @@ var pjIMG =[
 	"Let's see ya grit those teeth!",
 	"A real man never dies, even when he's killed!"
   ];
-
