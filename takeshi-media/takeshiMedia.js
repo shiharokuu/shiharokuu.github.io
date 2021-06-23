@@ -28,8 +28,6 @@
 	  'takeshi-media/gifs/take15.gif',
 	  'takeshi-media/gifs/take16.gif',
 	  'takeshi-media/gifs/take17.gif'
-	  
-
       ];
 */      
 var pjIMG =[
