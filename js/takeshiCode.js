@@ -1,6 +1,5 @@
  //By Damian/Kenta/Shiharoku
 //¿Qué haces leyendo el código de mi firma? (?) Holi. 
-
 console.log(pjIMG);
 function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
