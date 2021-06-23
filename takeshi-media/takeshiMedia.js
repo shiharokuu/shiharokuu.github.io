@@ -9,7 +9,6 @@
 	  'takeshi-media/music/DecisiveCollision.mp3',
 	  'takeshi-media/music/BeyondtheJourney.mp3'
       ];
-
 	var pjIMG =[
       'takeshi-media/gifs/take01.gif',
 	  'takeshi-media/gifs/take02.gif',
@@ -28,10 +27,8 @@
 	  'takeshi-media/gifs/take15.gif',
 	  'takeshi-media/gifs/take16.gif',
 	  'takeshi-media/gifs/take17.gif'
-	  
-
       ];
-      
+   
 	var pjQuotes = [
         "You trusted me, so I'll trust you too. That's what being friends means, doesn't it?",
 	"Don't you think that true memories are a combination of fun ones and painful ones?",
