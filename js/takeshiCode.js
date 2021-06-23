@@ -1,7 +1,7 @@
  //By Damian/Kenta/Shiharoku
 //¿Qué haces leyendo el código de mi firma? (?) Holi. 
 
-
+console.log(pjIMG);
 function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -33,7 +33,7 @@ function rand( lowest, highest){
 //Shuffle Traces
 	var trace1 = rand(0,mp3.length-1);
 	var trace2 = rand(0,pjQuotes.length-1);
-	var trace3 = rand(0,pjIMG.length-1);
+	var trace3 = rand(0,pjIMG[trace2].length-1);
 
 //HTML GENERATOR
 	const variant1 = "#ABB5CB";
@@ -47,7 +47,7 @@ function rand( lowest, highest){
 //Create IMG
 	const img = document.createElement('img');
 	img.classList.add('pjImage');
-	img.setAttribute("src", pjIMG[trace3]);
+	img.setAttribute("src", pjIMG[trace2][trace3]);
 	img.setAttribute("alt", "By Damian/Kenta/Shiharoku");
 	signature.appendChild(img);
 
