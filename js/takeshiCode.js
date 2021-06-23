@@ -29,7 +29,6 @@ function rand( lowest, highest){
     var adjustedHigh = (highest - lowest) + 1;       
     return Math.floor(Math.random()*adjustedHigh) + parseFloat(lowest);
 }
-
 //Shuffle Traces
 	var trace1 = rand(0,mp3.length-1);
 	var trace2 = rand(0,pjQuotes.length-1);
