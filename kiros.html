@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Y LA GANDORA ES: <span id="ganadora" >???</span> </h1> 
+
+  <button  onclick="ganadora()" type="submit" value="Submit">Kiros, picale aquí (?)</button>
+
+</body>
+</html>
+
+<script>
+function ganadora(){
+   if(rand(1,1000) % 2 == 0) {
+      document.getElementById("ganadora").innerHTML = "Marionetista";
+   } else {
+      document.getElementById("ganadora").innerHTML = "Sirenita";
+   }
+
+}
+
+function rand( lowest, highest){
+    var adjustedHigh = (highest - lowest) + 1;       
+    return Math.floor(Math.random()*adjustedHigh) + parseFloat(lowest);
+}
+
+</script>
