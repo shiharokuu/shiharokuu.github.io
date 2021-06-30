@@ -3,6 +3,7 @@
 	  'takeshi-media/music/HajimariKiseki.mp3',
 	  'takeshi-media/music/MourningRefrain.mp3',
 	  'takeshi-media/music/StandUp.mp3',
+	  'takeshi-media/music/hero.mp3',
 	  'takeshi-media/music/WayofLife.mp3',
 	  'takeshi-media/music/exorcist.mp3',
 	  'takeshi-media/music/barrier.mp3',
@@ -28,6 +29,8 @@
 	  'takeshi-media/gifs/take15.gif',
 	  'takeshi-media/gifs/take16.gif',
 	  'takeshi-media/gifs/take17.gif'
+	  
+
       ];
 */      
 var pjIMG =[
@@ -35,7 +38,7 @@ var pjIMG =[
 		  [
 		  'takeshi-media/gifs/take01.gif',
 		  'takeshi-media/gifs/take02.gif',
-		   'takeshi-media/gifs/take03.gif',
+		  'takeshi-media/gifs/take03.gif',
 		  'takeshi-media/gifs/take07.gif',
 		  'takeshi-media/gifs/take08.gif',
 		  'takeshi-media/gifs/take09.gif',
@@ -184,11 +187,65 @@ var pjIMG =[
 		  'takeshi-media/gifs/take10.gif',
 		  'takeshi-media/gifs/take13.gif',
 		  'takeshi-media/gifs/take14.gif',
-		  ]	  
+		  ],
+		 //"What good will being scared of the dark do? What good will being scared of them do?"
+		  [
+		  'takeshi-media/gifs/take02.gif',
+		  'takeshi-media/gifs/take06.gif',
+		  'takeshi-media/gifs/take07.gif',
+		  'takeshi-media/gifs/take08.gif',
+		  'takeshi-media/gifs/take10.gif',
+		  'takeshi-media/gifs/take11.gif',
+		  'takeshi-media/gifs/take12.gif',
+		  'takeshi-media/gifs/take13.gif',
+		  'takeshi-media/gifs/take14.gif',
+		  'takeshi-media/gifs/take15.gif'
+		],
+		 //"If you wanna make progress, you can't just sit around!"
+		  [
+		  'takeshi-media/gifs/take01.gif',
+		  'takeshi-media/gifs/take02.gif',
+		  'takeshi-media/gifs/take06.gif',
+		  'takeshi-media/gifs/take07.gif',
+		  'takeshi-media/gifs/take08.gif',
+		  'takeshi-media/gifs/take10.gif',
+		  'takeshi-media/gifs/take13.gif',
+		  'takeshi-media/gifs/take14.gif',
+		  'takeshi-media/gifs/take17.gif'
+		],
+	
+		 //"Grit your teeth, and do your best to keep them safe"
+		  [
+		  'takeshi-media/gifs/take02.gif',
+		  'takeshi-media/gifs/take06.gif',
+		  'takeshi-media/gifs/take07.gif',
+		  'takeshi-media/gifs/take10.gif',
+		  'takeshi-media/gifs/take13.gif',
+		  'takeshi-media/gifs/take14.gif'
+		],		
+		 //"It's alright to fall, just pick yourself back up again"
+		  [
+		  'takeshi-media/gifs/take01.gif',
+		  'takeshi-media/gifs/take02.gif',
+		  'takeshi-media/gifs/take09.gif',
+		  'takeshi-media/gifs/take11.gif',
+		  'takeshi-media/gifs/take15.gif',
+		  'takeshi-media/gifs/take17.gif'
+		],
+		 //"It's alright to cry, just find your smile again"
+		  [
+		  'takeshi-media/gifs/take01.gif',
+		  'takeshi-media/gifs/take04.gif',
+		  'takeshi-media/gifs/take05.gif',
+		  'takeshi-media/gifs/take09.gif',
+		  'takeshi-media/gifs/take11.gif',
+		  'takeshi-media/gifs/take15.gif',
+		],
+		
 	  ];
 
 	var pjQuotes = [
-    "You trusted me, so I'll trust you too. That's what being friends means, doesn't it?",
+    	"You trusted me, so I'll trust you too. That's what being friends means, doesn't it?",
 	"I'm not fighting because I think I can win. I'm fighting because I have to win",
 	"Don't you think that true memories are a combination of fun ones and painful ones?",
 	"Your past shouldn't stop you from achieving your goals and dreams",
@@ -201,5 +258,10 @@ var pjIMG =[
 	"I'm gonna show you... the power of the human race!",
 	"When you're scared, that's all the more reason to move forward",
 	"Let's see ya grit those teeth!",
-	"A real man never dies, even when he's killed!"
+	"A real man never dies, even when he's killed!",
+	"What good will being scared of the dark do? What good will being scared of them do?",
+	"If you wanna make progress, you can't just sit around!",
+	"Grit your teeth, and do your best to keep them safe",
+	"It's alright to fall, just pick yourself back up again",
+	"It's alright to cry, just find your smile again",
   ];
