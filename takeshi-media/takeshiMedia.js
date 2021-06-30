@@ -10,6 +10,7 @@
 	  'takeshi-media/music/DecisiveCollision.mp3'
       ];
 /*
+
 	var pjIMG =
 	  [
       'takeshi-media/gifs/take01.gif',
