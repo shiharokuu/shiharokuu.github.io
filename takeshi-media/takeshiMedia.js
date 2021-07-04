@@ -7,7 +7,9 @@
 	  'takeshi-media/music/WayofLife.mp3',
 	  'takeshi-media/music/exorcist.mp3',
 	  'takeshi-media/music/barrier.mp3',
-	  'takeshi-media/music/DecisiveCollision.mp3'
+	  'takeshi-media/music/DecisiveCollision.mp3',
+	  'takeshi-media/music/stepAhead.mp3'
+		
       ];
 /*
 
