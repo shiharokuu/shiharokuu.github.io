@@ -47,11 +47,16 @@ function rand( lowest, highest){
 	audio.setAttribute("preload","auto");
 	signature.appendChild(audio);
 //Create IMG
+	const imgCredit = document.createElement('a');
+	imgCredit.setAttribute("href", "https://github.com/shiharokuu/shiharokuu.github.io/tree/master/rpg/firmas/takeshi");
+	imgCredit.setAttribute("target", "_blank");
+	signature.appendChild(imgCredit);
 	const img = document.createElement('img');
 	img.classList.add('pjImage');
 	img.setAttribute("src", pjIMG[trace2][trace3]);
-	img.setAttribute("alt", "By Damian/Kenta/Shiharoku");
-	signature.appendChild(img);
+	img.setAttribute("alt", "Modelo de firma by Damian/Kenta/Shiharoku");
+	img.setAttribute("title", "Modelo de firma by Damian/Kenta/Shiharoku");
+	imgCredit.appendChild(img);
 
 //Create TEXT
 	const textBlock = document.createElement('div');
