@@ -48,7 +48,7 @@ function rand( lowest, highest){
 	signature.appendChild(audio);
 //Create IMG
 	const imgCredit = document.createElement('a');
-	imgCredit.setAttribute("href", "https://github.com/shiharokuu/shiharokuu.github.io/tree/master/rpg/firmas/takeshi");
+	imgCredit.setAttribute("href", "https://jujutsukaisen-rol.foroactivo.com/u11");
 	imgCredit.setAttribute("target", "_blank");
 	signature.appendChild(imgCredit);
 	const img = document.createElement('img');
