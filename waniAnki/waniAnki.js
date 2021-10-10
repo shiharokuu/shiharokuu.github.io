@@ -1,5 +1,5 @@
 //By Damshh
-
+wanikani();
 async function wanikani(){
 	kanjiInfo = document.getElementById('kanjiInfo');
 	var kanji = document.getElementById("word").textContent;
@@ -12,6 +12,7 @@ async function wanikani(){
 		createKanji(kanjiJS[i].data);
 	}
 }
+
 async function createKanji(data){
 	const grid = document.createElement('div');
 	grid.classList.add('grid-container');
@@ -48,7 +49,7 @@ async function createKanji(data){
 			meaning = meaning + ", " + data.meanings[i].meaning;
 		}
 	}
-	item1.innerHTML = "<a href='" + data.document_url + "'>" + meaning + "</a>";
+	item1.innerHTML = "<a href='" + data.document_url + "'>" + meaning +  "</a> — <strong>Level:</strong> " + data.level;
 	//item 2 - slug
 	item2.innerHTML = data.slug;
 	
