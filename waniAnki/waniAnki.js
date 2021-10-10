@@ -1,17 +1,33 @@
-//By Damshh
+//By Damshh https://www.reddit.com/user/Damshh
 wanikani();
+
 async function wanikani(){
 	kanjiInfo = document.getElementById('kanjiInfo');
-	var kanji = document.getElementById("word").textContent;
 	kanjiArr = kanji.split("");
+	
 	k = kanjiArr.join(",");
 	console.log(k);
 	kanjiJS = await getSubject("subjects?types=kanji&slugs=" + k);
-	console.log(kanjiJS);
+	sorted = sortKanji();
+	console.log(sorted);
 	for(let i = 0; i < kanjiJS.length; i++){
-		createKanji(kanjiJS[i].data);
+		await createKanji(sorted[i]);
 	}
-	
+}
+
+function sortKanji(){
+	//console.log(kanjiJS);
+	var index=0;
+	sortedKanji = new Array(kanjiJS.length);
+	for(let i=0;i<kanjiArr.length;i++){
+		for(let j = 0;j<kanjiJS.length;j++){
+			if(kanjiJS[j].data.slug==kanjiArr[i]){
+				sortedKanji[index]=kanjiJS[j].data;
+				index++;
+			}
+		}
+	}
+	return sortedKanji;
 }
 
 async function createKanji(data){
@@ -50,7 +66,7 @@ async function createKanji(data){
 			meaning = meaning + ", " + data.meanings[i].meaning;
 		}
 	}
-	item1.innerHTML = "<a href='" + data.document_url + "'>" + meaning +  "</a> — <strong>" + data.level + "</strong>";
+	item1.innerHTML = "<a href='" + data.document_url + "'>" + meaning +  "</a> — <strong>Level:</strong> " + data.level;
 	//item 2 - slug
 	item2.innerHTML = data.slug;
 	
@@ -106,7 +122,7 @@ async function createKanji(data){
 	grid.appendChild(item5);
 	
 	
-	console.log(data);
+	//console.log(data);
 	//append grid to kanjiinfo
 	kanjiInfo.appendChild(grid);
 	lineaBreak = document.createElement("br");
@@ -114,7 +130,7 @@ async function createKanji(data){
 }
 
 function createRadical(r,radical,i){
-	console.log(r);
+	//console.log(r);
 	rString = "";
 	if(r.characters!=null){
 		rString = "<radical>" + r.characters + "</radical> " + r.meanings[0].meaning;
@@ -135,6 +151,7 @@ function createRadical(r,radical,i){
 	}
 	
 }
+
 async function getSubject(apiEndpointPath){
 	var requestHeaders =
 	  new Headers({
