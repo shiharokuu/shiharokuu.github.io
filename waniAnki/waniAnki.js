@@ -16,7 +16,6 @@ async function wanikani(){
 async function createKanji(data){
 	const grid = document.createElement('div');
 	grid.classList.add('grid-container');
-	
 	//divs for items
 	const item1 = document.createElement('div');
 	const item2 = document.createElement('div');
@@ -109,6 +108,8 @@ async function createKanji(data){
 	console.log(data);
 	//append grid to kanjiinfo
 	kanjiInfo.appendChild(grid);
+	lineaBreak = document.createElement("br");
+	kanjiInfo.appendChild(lineaBreak);
 }
 
 function createRadical(r,radical,i){
@@ -148,4 +149,3 @@ async function getSubject(apiEndpointPath){
 	json = await response.json();
 	return json.data;
 }
-
