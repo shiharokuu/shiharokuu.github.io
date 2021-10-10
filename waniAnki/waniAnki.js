@@ -50,7 +50,7 @@ async function createKanji(data){
 			meaning = meaning + ", " + data.meanings[i].meaning;
 		}
 	}
-	item1.innerHTML = "<a target='_blank' href='" + data.document_url + "'>" + meaning + "</a>";
+	item1.innerHTML = "<a href='" + data.document_url + "'>" + meaning + "</a>";
 	//item 2 - slug
 	item2.innerHTML = data.slug;
 	
