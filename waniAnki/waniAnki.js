@@ -11,6 +11,7 @@ async function wanikani(){
 	for(let i = 0; i < kanjiJS.length; i++){
 		createKanji(kanjiJS[i].data);
 	}
+	
 }
 
 async function createKanji(data){
