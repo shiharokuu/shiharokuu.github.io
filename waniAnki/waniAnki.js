@@ -12,6 +12,7 @@ async function wanikani(){
 		createKanji(kanjiJS[i].data);
 	}
 }
+
 async function createKanji(data){
 	const grid = document.createElement('div');
 	grid.classList.add('grid-container');
