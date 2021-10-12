@@ -13,7 +13,7 @@ wanikani();
  */
 async function wanikani(){
 	kanjiInfo = document.getElementById('kanjiInfo');
-	kanji = kanji.replace(/([\u3040-\u30ff])/g, '');
+	kanji = kanji.replace(/([ぁ-ゔゞァ-・ヽヾ゛゜ー])/g, '');
 	kanjiArr = kanji.split("");
 	k = kanjiArr.join(",");
 	//console.log(k);}
