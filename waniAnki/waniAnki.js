@@ -18,6 +18,7 @@ async function wanikani(){
 	k = kanjiArr.join(",");
 	//console.log(k);}
 	kanjiJS = await getSubject("subjects?types=kanji&slugs=" + k);
+	if(kanjiJS.length==0) kanjiJS = await getSubject("subjects?types=kanji&slugs=一");
 	sorted = sortKanji();
 	//console.log(sorted);
 	for(let i = 0; i < sorted.length; i++){
