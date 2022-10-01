@@ -1,9 +1,9 @@
 
 .sheroImage{
-border:6px solid #e2664a;
+border:6px solid #c74644;
 border-top:none;
 margin-bottom:-60px;
-background-color:#e2664a
+background-color:#c74644
 }
 .audiojs .scrubber
 {width:400px;background:#000}
@@ -24,7 +24,7 @@ margin-bottom:50px
 .sheroQUOTE
 {
 width:552px;
-background-color:#e2664a;
+background-color:#c74644;
 display: inline-block;
 text-align:center;
 }
