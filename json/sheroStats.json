@@ -1,74 +1,21 @@
 {   
-	"atk": 27,
-	"vit": 19,
-	"resF": 18,
-	"resM": 4,
-	"preci": 6,
-	"ref": 1,
-	"atkM": 1,
-	"prana": 30,
-	"prob": 30,
-	"crit": 10,
-	"np": "A++",
-	"skill": [{
-			"name": "INDEPENDENT ACTION – Rango A++++",
-			"shortName": "INDEPENDENT ACTION",
-			"effect": "(Pasiva) En caso de tener master: Recupera en un 1% tanto el HP como MP por rango de la habilidad",
-			"desc": "Las reservas de prana de Shirou no son las mejores al ser un magus de tercera, pero gracias a esta habilidad que obtiene al pertencer a la clase Archer y debido a su compatibilidad con el espiritu con el que se ha integrado, que es básicamente una versión alternativa suya, es capaz de usar los poderes de un demi servant, por un tiempo más prolongado de lo que podría hacerlo con otro espiritu heroico."
-		},
+	"atk": 0,
+	"vit": 0,
+	"resF": 0,
+	"resM": 0,
+	"preci": 0,
+	"ref": 0,
+	"atkM": 0,
+	"prana": 0,
+	"prob": 0,
+	"crit": 0,
+	"np": "???",
+	"skill": [
 		{
-			"name": "REINFORCEMENT – Rango C",
-			"shortName": "REINFORCEMENT",
-			"effect": "(Activa continua) 3MP(Por rango de habilidad) Cada turno. +2 +2, por rango de habilidad, a las defensas y ataques físicos.",
-			"desc": "Es una de las únicas magecrafts que puede realiza Shirou. Es una de las técnicas más básicas, siendo de las fundaciones de la magecraft al mejorar la existencia del objetivo al aplicarle energía mágica, sin embargo, a la vez es una de las más complicadas de implementar de manera eficiente, esto es debido a que uno debe saber que tanto mejorar o como hacerlo de manera eficiente, lo cual requiere un buen análisis estructural de los objetos y el entendimiento de tanto sus propiedades físicas como las químicas. Uno de los usos más normales que tiene Shirou para la técnica es reforzar su propio cuerpo, para mejorar ligeramente sus capacidades físicas, o por ejemplo sus ojos, para poder ver a mayores distancias de lo normal o mejorar su visión para ver en la oscuridad; igualmente lo utiliza en las armas que proyecta, pues al entender bien la estructura de las mismas, es capaz de reforzarlas fácilmente."
-		},
-		{
-			"name": "BROKEN PHANTASM: THE DESTROYED ILLUSION – Rango D",
-			"shortName": "BROKEN PHANTASM",
-			"effect": "(Activa) 20MP 2CD. 15 +5, por rango de habilidad, a un ataque físico de Shirou.",
-			"desc": "Es posible sacrificar el noble fantasma de uno, para realizar un ataque un rango más alto de lo normal. Esto es conseguido al sobrecargar el noble fantasma con energía mágica, haciendolo explotar al alcanzar el enemigo. Debido a que es casi imposible reparar un noble fantasma que ha sido destruido, no muchos servants recurren a esta medida, ya que además de estos ser básicamente su leyenda cristalizada, es de igual manera su carta del triunfo, por lo que no muchos considerarían la idea de perder su arma más poderosa. EMIYA es la excepción, ya que es capaz de reproducir cuantas copias quiera de un noble fantasma, mientras su energía mágica se lo permita, utilizando su tracing; además, de esta manera, puede contrabalancear el hecho que sus proyecciones sean un rango por debajo del original."
-		},
-		{
-			"name": "RHO AIAS: THE SEVEN RINGS THAT COVER THE FIERY HEAVENS – Rango E",
-			"shortName": "RHO AIAS",
-			"effect": "(Activa) 20MP 2CD. 15 + 5(Por rango de habilidad ) al realizar una tirada de defensa física.",
-			"desc": "En su forma más grande, se dice que el escudo invoca siete pétalos de flores hechos de luz. Este campo delimitado toma la forma de una flor iridiscente, que es una referencia a la flor que floreció de la sangre de Áyax El Grande. Cada pétalo de flor tiene el poder defensivo de una poderosa pared de una fortaleza. Es necesario que el usuario, este constantemente proveyendo poder mágico para formar el escudo, y si este es destruido o dañado, Shirou sufrirá un daño y dolor en concordancia al ataque. Es capaz de proyectarlo a distancia también."
-		},
-		{
-			"name": "SEIGI NO MIKATA RESOLUTION – Rango E",
-			"shortName": "SEIGI NO MIKATA RESOLUTION",
-			"effect": "(Pasiva) En caso de ser derrotado regenera al combatiente con 10%, por rango de la habilidad, del HP máximo. Solo un uso por combate.",
-			"desc": "Emiya Shirou es una persona bastante terca, por lo que si la situación lo amerita, no dudará en llevar su cuerpo más allá de sus límites. Si partes de su cuerpo estan rotas, simplemente usará las que no lo estan. Si todo lo que tiene esta roto, entonces usará lo que no tiene. Si es derrotado, se levantará de nuevo, sin importar que su cuerpo sufra por ello, esto gracias en parte a la gran tolerancia al dolor que desarollo, por practicar magecraft de manera incorrecta."
-		},
-		{
-			"name": "SKILL 6: ???",
-			"shortName": "SKILL 6: ???",
+			"name": "???",
+			"shortName": "???",
 			"effect": "N/A",
-			"desc": "Habilidad #6 no desbloqueada."
-		},
-		{
-			"name": "SKILL 7: ???",
-			"shortName": "SKILL 7: ???",
-			"effect": "N/A",
-			"desc": "Habilidad #7 no desbloqueada."
-		},
-		{
-			"name": "UNLIMITED BLADE WORKS: TRACING – Rango A++",
-			"shortName": "UNLIMITED BLADE WORKS: TRACING",
-			"effect": "(Pasiva) +4 a los ataques físicos y por rango del NP. Aumenta la posibilidad de critico en 2 en los rangos E, C y A. (Pasiva) +4 a la res. física por cada + del NP.",
-			"desc": "Shirou es capaz de utilizar una avanzada versión de proyección, la cual el denomina tracing. Esta le permite reproducir no solamente la forma y sustancia de un objeto, pero también la historia completa de los mismos, creando copias casi perfectas de ellos. Al principio no entendía su afinidad con las espadas, pero tras integrarse con el espíritu heroico EMIYA, ha logrado mejor comprensión de sus habilidades, enterándose así que carga el origen y elemento de Espada, lo que le permite proyectar con suma facilidad armas melee, especialmente espadas, lanzas y alabardas, básicamente un arma con una hoja/espada."
-		},
-		{
-			"name": "UNLIMITED BLADE WORKS: REALITY MARBLE – C",
-			"shortName": "UBW: REALITY MARBLE",
-			"effect": "(Activo continuo) 40 MP por turno. Pueden ser destruido por un NP/HM Anti-mundo del mismo rango. +12 y +5, por rango de NP, al ataque físico y la potencia crítica de Shirou.",
-			"desc": "Gracias a que ha aceptado un poco más su integración con Archer y su experiencia usando los poderes, su reality marble ahora es capaz de manifestarse en el mundo real. Sin embargo, debido a la enorme carga que este impone sobre Shirou, efectos secundarios en su cuerpo pueden permanecer tras el uso el uso del mismo."
-		},
-		{
-			"name": "NOBLE PHANTASM 3: ???",
-			"shortName": "NP3: ???",
-			"effect": "N/A",
-			"desc": "Noble Phantasm #3 no desbloqueado."
+			"desc": "Ficha de habilidades en construcción... "
 		}
 	]
 
