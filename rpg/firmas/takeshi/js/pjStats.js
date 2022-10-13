@@ -6,7 +6,7 @@ stats = [{
 			"category": "Vida y Energía"
 		},
 		{
-			"name": "CE",
+			"name": "Mana",
 			"value": "1",
 			"category": "Vida y Energía"
 		},
