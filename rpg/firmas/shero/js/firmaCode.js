@@ -133,7 +133,7 @@ function rand( lowest, highest){
 //Create statTip
 	const statsTip = document.createElement('span');
 	statsTip.classList.add('statsTip');
-	statsTip.innerHTML = "<a href='https://jujutsukaisen-rol.foroactivo.com/t23-sensho-takeshi-id#43' target='_blank'><ruby><rb>衛宮 士郎</rb><rp>（</rp><rt>Emiya Shirō</rt><rp>）</rp></ruby></a>";
+	statsTip.innerHTML = "<a href='https://fatefd.foroactivo.com/t63-emiya-shiro-seigi-no-mikata-id' target='_blank'><ruby><rb>衛宮 士郎</rb><rp>（</rp><rt>Emiya Shirō</rt><rp>）</rp></ruby></a>";
 	sigBottom.appendChild(statsTip);
 	
  //Stat's pop up
