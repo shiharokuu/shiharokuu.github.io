@@ -7,8 +7,8 @@
   --active2: rgb(199,70,68,06);
   --text1:  rgb(255,243,171);
   --text2:  #fff3ab;
-  --menu:  rgb(199, 53, 32);
-  --menu2:  rgb(199, 53, 32,0.6);
+  --menu:  rgb(255, 0, 0);
+  --menu2:  rgb(255, 0, 0,0.6);
 }
 .pjImage{
 border:6px solid var(--borders);

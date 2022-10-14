@@ -2,11 +2,7 @@
 	Aquí se ponen los paths a las imagenes y música, además de las citas de personaje. 
 	Se pueden poner ciertas citas para solo ciertas imagenes, o simplemente dejarlo todo al azar.*/ 
 	var mp3 =[
-      'pj-media/music/KisekiIV.mp3', 
-	  'pj-media/music/HajimariKiseki.mp3',
-	  'pj-media/music/MourningRefrain.mp3',
 	  'pj-media/music/hero.mp3',
-	  'pj-media/music/WayofLife.mp3',
 	  'pj-media/music/barrier.mp3',
 	  'pj-media/music/DecisiveCollision.mp3',
 	  'pj-media/music/stepAhead.mp3',	
@@ -135,7 +131,7 @@ var pjIMG =[
     "If you walk down the path that you believe is right, you cannot be wrong.",
     "Helping other people is our responsibility. And no matter what I'm gonna live by that.",
     "If parts of me are broken, then I just need to use the parts that aren't",
-	"体は剣で出来ている。",
+	"My body is made out of swords.",
 	"This body is made out of infinite swords.",
 	"The one you're facing is a true imitation of a Heroic Spirit!"
   ];

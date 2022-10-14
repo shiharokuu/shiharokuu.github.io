@@ -2,12 +2,7 @@
 	Aquí se ponen los paths a las imagenes y música, además de las citas de personaje. 
 	Se pueden poner ciertas citas para solo ciertas imagenes, o simplemente dejarlo todo al azar.*/ 
 	var mp3 =[
-      'pj-media/music/KisekiIV.mp3', 
-	  'pj-media/music/HajimariKiseki.mp3',
-	  'pj-media/music/MourningRefrain.mp3',
 	  'pj-media/music/hero.mp3',
-	  'pj-media/music/WayofLife.mp3',
-	  'pj-media/music/barrier.mp3',
 	  'pj-media/music/DecisiveCollision.mp3',
 	  'pj-media/music/stepAhead.mp3',	
 	  'pj-media/music/brave-shine.mp3',
