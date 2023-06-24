@@ -1,5 +1,5 @@
 /*Firma by Damian/Shiharoku/Kenta
-	En caso de querer usar stats, aquí se ponen, al igual que técnicas/skills.*/ 	
+	En caso de querer usar stats, aquí se ponen, al igual que técnicas/skills. */ 	
 stats = [{
 			"name": "HP",
 			"value": "1",
