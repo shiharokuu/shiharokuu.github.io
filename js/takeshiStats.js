@@ -1,4 +1,4 @@
-	
+	 
 stats = [{
 			"name": "HP",
 			"value": "1",
