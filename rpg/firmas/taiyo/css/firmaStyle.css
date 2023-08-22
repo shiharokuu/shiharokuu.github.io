@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ropa+Sans&family=Goldman&display=swap');
 
 :root {
-  --borders: rgb(193,49,40);
-  --borderOp:  rgba(193,49,40, 0.6);
-  --active: rgb(13,39,91);
-  --active2: rgba(13,39,91, 0.6);
-  --text1:  #FEED3D;
-  --text2: #e4d536;
+  --borders: rgb(94, 113, 97);
+  --borderOp:  rgba(94, 113, 97, 0.6);
+  --active: rgb(3, 85, 78);
+  --active2: rgba(3, 85, 78, 0.6);
+  --hoverColor: rgba(9, 179, 164, 0.6);
+  --text1:  #A9A9A9 ;
+  --text2: #A9A9A9 ;
 }
 .pjImage{
 border:6px solid var(--borders);
@@ -235,14 +236,14 @@ color: #fff;
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background: rgb(0, 0, 0);
-  background: rgba(13,39,91, 0.6);
+  background: var(--hoverColor);
   box-sizing: border-box;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background: rgb(13,39,91);
+  background: var(--active);
+  background: var(--active2);
   box-sizing: border-box;
  
 }
@@ -268,18 +269,18 @@ color: #fff;
 /* Track */
 ::-webkit-scrollbar-track { 
   background: rgb(241, 241, 241);
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(241, 241, 241, 0.6);
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(19,53,125);
-  background: rgba(19,53,125, 0.8);
+    background: --active2;
+  background: --active2;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(19,53,125); 
+  background: --active2; 
 }
 
 
