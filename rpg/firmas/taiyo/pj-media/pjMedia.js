@@ -100,6 +100,6 @@ var pjIMG =[
 		"Data! Data! Data! I can't make bricks without clay.",
 		"You see, but you do not observe. The distinction is clear",
 		"Don't change so people will like you. Be yourself, the right people will like the real you",
-		"Si estas leyendo esto, debes darme dinero. (?)"
+		"Si estas leyendo esto, debes darme dinero. (??)"
 	
   ];
