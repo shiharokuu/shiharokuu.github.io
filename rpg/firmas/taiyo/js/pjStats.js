@@ -2,7 +2,7 @@
 	En caso de querer usar stats, aquí se ponen, al igual que técnicas/skills.*/ 	
 stats = [{
 			"name": "Ataque Físico",
-			"value": "0",
+			"value": "2",
 			"category": "Vida y Energía"
 		},
 		{
@@ -22,7 +22,7 @@ stats = [{
 		},
 		{
 			"name": "Evasión",
-			"value": "0",
+			"value": "3",
 			"category": "Mágico"
 		},
 		{
@@ -35,25 +35,25 @@ stats = [{
 
 skill = [
 		{
-			"name": "Me debes dinero",
-			"shortName": "Dame dinero",
-			"effect": "La persona que lee esto me debe un dólar cada vez que lo ve. (?)",
-			"desc": "El efecto de esta técnica es que aún no pongo las habilidades, así que me debes dinero (?).."
+			"name": "Extreme Speed - Habilidad Defensiva [Viento]",
+			"shortName": "Extreme Speed",
+			"effect": "Movimiento de viento rápido. +3 Esquiva.",
+			"desc": "Agitando fuertemente sus alas, Watson aumenta su velocidad para poder esquivar ataques"
 		},
 		{
-			"name": "Técnica 2: ???",
-			"shortName": "T2: ???",
-			"effect": "efecto#2 N/A",
-			"desc": "descripción#2 N/A."
+			"name": "Volt Tackle - Ataque Devastado [Electricidad| Físico]",
+			"shortName": "Volt Tackle",
+			"effect": "+6 Daño Físico, 30% chance de quemar, pero por los próximos 2 turnos tienes -10 daño Físico. Esta habilidad no se puede volver a usar hasta que se pase el efecto negativo.",
+			"desc": "Gran ataque de electricidad en el que gastas toda tu energía. Watson carga una gran cantidad de electricida en su cuerpo y prosigue a taclear fuertemente al enemigo."
 		},		{
-			"name": "Técnica 3: ???",
-			"shortName": "T3: ???",
+			"name": "Habilidad 3: ???",
+			"shortName": "Habilidad 3",
 			"effect": "efecto#3 N/A",
 			"desc": "descripción#3 N/A."
 		},
 		{
-			"name": "Técnica 4: ???",
-			"shortName": "T4: ???",
+			"name": "Habilidad 4: ???",
+			"shortName": "Habilidad 4",
 			"effect": "efecto#4 N/A",
 			"desc": "descripción#4 N/A."
 		}
