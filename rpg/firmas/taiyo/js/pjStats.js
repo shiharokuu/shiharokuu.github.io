@@ -43,7 +43,7 @@ skill = [
 		{
 			"name": "Volt Tackle - Ataque Devastado [Electricidad| Físico]",
 			"shortName": "Volt Tackle",
-			"effect": "+6 Daño Físico, 30% chance de quemar, pero por los próximos 2 turnos tienes -10 daño Físico. Esta habilidad no se puede volver a usar hasta que se pase el efecto negativo.",
+			"effect": "+6 Impacto Físico, 12 Daño Físico de Electricidad. Si sale 8 o más provoca Paralizar. Por los próximos 2 turnos tienes -10 daño Físico. Esta habilidad no se puede volver a usar hasta que se pase el efecto negativo.",
 			"desc": "Gran ataque de electricidad en el que gastas toda tu energía. Watson carga una gran cantidad de electricida en su cuerpo y prosigue a taclear fuertemente al enemigo."
 		},		{
 			"name": "Habilidad 3: ???",
