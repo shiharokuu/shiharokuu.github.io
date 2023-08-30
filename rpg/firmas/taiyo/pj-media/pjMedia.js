@@ -8,7 +8,8 @@
 	  'pj-media/music/hyouka3.mp3',
 	  'pj-media/music/hyouka4.mp3',
 	  'pj-media/music/hyouka5.mp3',
-	  'pj-media/music/saddonokyoku.mp3'
+	  'pj-media/music/saddonokyoku.mp3',
+	  'pj-media/music/believer.mp3'
 	  
       ];
 /*
