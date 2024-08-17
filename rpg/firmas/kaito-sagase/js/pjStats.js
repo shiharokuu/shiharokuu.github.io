@@ -58,25 +58,25 @@ skill = [
 		},		
 		{
 			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
-			"shortName": "Slot #3",
+			"shortName": "????",
 			"effect": "Movements????",
 			"desc": "????"
 		},
 		{
 			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
-			"shortName": "Slot #3",
+			"shortName": "????",
 			"effect": "Movements????",
 			"desc": "????"
 		},
 		{
 			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
-			"shortName": "Slot #3",
+			"shortName": "????",
 			"effect": "Movements????",
 			"desc": "????"
 		},
 		{
 			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
-			"shortName": "Slot #3",
+			"shortName": "????",
 			"effect": "Movements????",
 			"desc": "????"
 		}
