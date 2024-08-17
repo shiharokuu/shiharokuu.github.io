@@ -53,8 +53,8 @@ skill = [
 		{
 			"name": "<img src='../../pokemon-assets/pokemon/92.png'><br><img src='../../pokemon-assets/types/generation-vii/sun-moon/8.png'><img src='../../pokemon-assets/types/generation-vii/sun-moon/4.png'>",		
 			"shortName": "Moriarty",
-			"effect": "TBA",
-			"desc": "TBA"
+			"effect": "<li>Lengüetazo</li><li>Rayo Confuso</li><li>Bomba Lodo</li><li>Rayo</li>",
+			"desc": "Levitar"
 		},		
 		{
 			"name": "Sprite",
