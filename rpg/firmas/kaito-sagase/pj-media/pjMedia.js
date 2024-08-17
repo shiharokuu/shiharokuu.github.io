@@ -124,7 +124,7 @@ var pjIMG =[
 		  ],
 		//13	"¡Felicidades! Encontraste la ladron sonriente, ahora me debes 1 millon de pokédolares"
 		  [
-		'pj-media/gifs/smiling-thief.gif'
+		'pj-media/gifs/smiling-hakutou.gif'
 		],
 		//13	no mires
 		[
