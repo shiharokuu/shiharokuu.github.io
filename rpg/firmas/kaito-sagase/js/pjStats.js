@@ -57,28 +57,28 @@ skill = [
 			"desc": "Levitar"
 		},		
 		{
-			"name": "Sprite",
+			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
 			"shortName": "Slot #3",
-			"effect": "Movements",
-			"desc": "Habilidad"
+			"effect": "Movements????",
+			"desc": "????"
 		},
 		{
-			"name": "Sprite",
-			"shortName": "Slot #4",
-			"effect": "Movements",
-			"desc": "Habilidad"
+			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
+			"shortName": "Slot #3",
+			"effect": "Movements????",
+			"desc": "????"
 		},
 		{
-			"name": "Sprite",
-			"shortName": "Slot #5",
-			"effect": "Movements",
-			"desc": "Habilidad"
+			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
+			"shortName": "Slot #3",
+			"effect": "Movements????",
+			"desc": "????"
 		},
 		{
-			"name": "Sprite",
-			"shortName": "Slot #6",
-			"effect": "Movements",
-			"desc": "Habilidad"
+			"name": "<img src='../../pokemon-assets/pokemon/0.png'>",
+			"shortName": "Slot #3",
+			"effect": "Movements????",
+			"desc": "????"
 		}
 	];
 
