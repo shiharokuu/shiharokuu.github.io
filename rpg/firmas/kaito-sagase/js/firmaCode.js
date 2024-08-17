@@ -211,5 +211,3 @@ function stateMaker(i){
 	
 	return td;
 }
-
-
