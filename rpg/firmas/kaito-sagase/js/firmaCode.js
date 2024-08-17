@@ -72,7 +72,7 @@ function rand( lowest, highest){
 //Create Ability
 	const ability = document.createElement('div');
 	ability.classList.add('pjHab');
-	ability.innerHTML = "Pokémon Team";
+	ability.innerHTML = "<img style='margin-top:-30px' src='team.png'>";
 	textBlock.appendChild(ability);
 //Create Ability Text
 	const abilityText = document.createElement('div');
